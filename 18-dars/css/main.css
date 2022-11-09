@@ -1,0 +1,100 @@
+
+body{
+    margin: 0;
+    background-color: #FEFCF7;
+}
+
+/* input{
+    border: 2px solid #ccc;
+    outline: none;
+} */
+
+/* input::placeholder{
+    color: red;
+    padding: 10px;
+    text-align: center;
+} */
+
+.search{
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 1% center;
+    padding-left: 20px;
+    -webkit-appearance: none;
+}
+
+/* .search::placeholder{
+    
+} */
+
+/* .search::-webkit-search-cancel-button{
+    position:relative;
+    right:20px;    
+} */
+
+/* input[type="search"].dark {
+    background: #222;
+    color: #fff;
+  }
+  
+  input[type="search"].light {
+    background: #fff;
+    color: #222;
+  }
+  
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1em;
+    width: 1em;
+    border-radius: 50em;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+    background-size: contain;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  input[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: .3;
+    pointer-events: all;
+  }
+  
+  input[type="search"].dark::-webkit-search-cancel-button {
+    filter: invert(1);
+  } */
+
+/* .liner{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(to right, #fff 33%, #000fff 32%, orange 31%); */
+    /* background-image: repeating-linear-gradient(
+        -45deg,
+        black 0,
+        black 25px,
+        orange 25px,
+        orange 50px
+      ); */
+    /* background-image: radial-gradient(#2ce153, #1768e1); */
+    /* background-image: conic-gradient(#3590eb, #ee82cf); */
+/* } */
+
+.text{
+    background-image: linear-gradient(#2ce153, #1768e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
+.our-collection{
+    font-family: 'Fraunces', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    /* line-height: 72px; */
+    text-align: center;
+    color: #83888F;
+
+    background-image: linear-gradient( #042afe00, red);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

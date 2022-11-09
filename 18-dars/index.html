@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18-dars</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- C - Create(Yaratish) - POST -->
+    <!-- R - Read(O'qish) - GET -->
+    <!-- U - Update(O'zgartirish) - PUT, PATCH -->
+    <!-- D - Delete(O'chirish) - DELETE -->
+    <!-- ARIA - Accessibility Rich Internet Application - Qulayliklar bilan boyitilgan internet dasturi -->
+    <!-- minlength - maxlength -->
+    <form
+      action="https://echo.htmlacademy.ru/"
+      method="POST"
+      autocomplete="off"
+    >
+      <div>
+        <label for="username">Ismingizni kiriting</label>
+      </div>
+      <input
+        type="text"
+        id="username"
+        name="user_name"
+        pattern="\p{L}+"
+        placeholder="Enter your username"
+        minlength="4"
+      />
+
+      <div>
+        <label for="email">Elektron pochtangizni kiriting</label>
+      </div>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+      />
+
+      <div>
+        <label for="password">Parolingizni kiriting</label>
+      </div>
+      <input
+        class="input"
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+      />
+
+      <div>
+        <label for="number">Raqam kiriting</label>
+      </div>
+      <input
+        type="number"
+        id="number"
+        name="number"
+        placeholder="Enter your number"
+      />
+
+      <div>
+        <label for="tel">Telefon raqam kiriting</label>
+      </div>
+      <input type="tel" id="tel" name="tel" placeholder="+998" />
+
+      <div>
+        <label for="search">Qidirish</label>
+      </div>
+      <input
+        class="search"
+        type="search"
+        id="search"
+        name="search"
+        placeholder="Search"
+      />
+
+      <div>
+        <label for="color">Rangni tanlang</label>
+      </div>
+      <input type="color" id="color" name="color" />
+
+      <div>
+        <label for="time">Vaqtni tanlang</label>
+      </div>
+      <input type="time" id="time" name="time" />
+
+      <div>
+        <label for="datetime-local">Date vaqt tanlang</label>
+      </div>
+      <input type="datetime-local" id="datetime" name="datetime_local" />
+
+      <div>
+        <label for="date">Kun tanlang</label>
+      </div>
+      <input type="date" id="date" name="date" />
+
+      <div>
+        <label for="month">Oy tanlang</label>
+      </div>
+      <input type="month" id="month" name="month" />
+
+      <div>
+        <label for="week">Hafta tanlang</label>
+      </div>
+      <input type="week" id="week" name="week" />
+
+      <div>
+        <label for="url">URL tanlang</label>
+      </div>
+      <input type="url" id="url" name="url" />
+
+      <input type="text" aria-label="Ismingizni kiriting" />
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <div class="liner">
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
+        consectetur necessitatibus provident sint adipisci laboriosam obcaecati
+        beatae nostrum, quis magnam odio error corrupti similique incidunt,
+        atque fuga officia in! Illum, ea velit. Esse iusto expedita aut sint a
+        aliquid, quos incidunt rem quas perferendis nostrum quam eius obcaecati
+        reprehenderit et, natus ad delectus dicta officia iure itaque tenetur.
+        Magnam illum praesentium dolorum alias molestias sunt! Incidunt culpa
+        voluptatum nemo dolor placeat ipsam quas eligendi. Asperiores libero
+        quia placeat? Quibusdam, quas architecto. Ratione eos commodi facilis
+        accusamus distinctio harum laborum recusandae, cupiditate numquam beatae
+        maiores repudiandae temporibus ex! Vero, numquam reprehenderit!
+      </p>
+
+      <h2 class="our-collection">our collection</h2>
+    </div>
+  </body>
+</html>

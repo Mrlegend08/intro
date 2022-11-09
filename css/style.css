@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+}
+.site-main {
+  height: 100vh;
+}
+
+.login-section {
+  padding-right: 178px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-section-img {
+  height: 100vh;
+  width: 720px;
+}
+
+.content-top {
+  margin-bottom: 24px;
+}
+.login-section-inf {
+  font-size: 16px;
+  line-height: 19px;
+  color: #2d3748;
+  text-align: center;
+  margin: 0 auto;
+}
+.login-section-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  color: #1a202c;
+  text-align: center;
+  margin: 0 auto;
+  /* margin-top: 150px; */
+}
+.login-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content-center {
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+form {
+  margin: 0 auto;
+}
+.label {
+  font-size: 16px;
+  line-height: 19px;
+  color: #4a5568;
+}
+.input {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 350px;
+  line-height: 16px;
+  padding: 17px 20px;
+  color: #2d3748;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.content-top-bottom {
+  width: 350px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+.both {
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  background: #f7fafc;
+  border: 1px solid #e8e8e8;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.remem {
+  font-size: 14px;
+  line-height: 16px;
+  color: #2d3748;
+}
+.ask {
+  font-size: 14px;
+  line-height: 16px;
+  color: #2c5282;
+}
+.content-bottom {
+  margin-bottom: 147px;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 347px;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  border: none;
+}
+.button:first-child {
+  background: #04c45c;
+  border-radius: 5px;
+}
+
+.button:last-child {
+  display: flex;
+  align-items: center;
+  background: #2d3748;
+  border-radius: 5px;
+}
+.icon-google {
+  margin-right: 10px;
+}
+.ask2 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #616161;
+}
+.join-link {
+  color: #2c5282;
+  font-size: 14px;
+  line-height: 16px;
+}
